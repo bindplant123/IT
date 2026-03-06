@@ -1,3 +1,9 @@
+#py --version
+#py -m pip install pandas
+#py -m pip install matplotlib
+#py -m pip install seaborn
+#py -m pip install scikit-learn
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt

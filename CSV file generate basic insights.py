@@ -1,9 +1,15 @@
+#py --version
+#py -m pip install pandas
+#py -m pip install matplotlib
+#py -m pip install seaborn
+#py -m pip install scikit-learn
+
 # Import required libraries
 import pandas as pd
 import matplotlib.pyplot as plt
 
 # Step 1: Read CSV file
-file_path = "C:\\Users\\abdul\\Downloads\\BI\\BI\\DATA.csv"
+file_path = "E:\\GUYS\\Code\\BI\\DATA.csv"
 data = pd.read_csv(file_path)
 
 # Step 2: Display first few rows

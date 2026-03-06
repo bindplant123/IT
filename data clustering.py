@@ -1,3 +1,9 @@
+#py --version
+#py -m pip install pandas
+#py -m pip install matplotlib
+#py -m pip install seaborn
+#py -m pip install scikit-learn
+
 import warnings
 warnings.filterwarnings("ignore")
 

@@ -1,9 +1,15 @@
+#py --version
+#py -m pip install pandas
+#py -m pip install matplotlib
+#py -m pip install seaborn
+#py -m pip install scikit-learn
+
 # Import required libraries
 import pandas as pd
 import matplotlib.pyplot as plt
 
 # Read sales data from CSV file
-data = pd.read_csv("C:\\Users\\abdul\\Downloads\\BI\\BI\\DATA 2.csv")
+data = pd.read_csv("E:\\GUYS\\Code\\BI\\DATA 2.csv")
 
 # Display dataset
 print("Sales Data:")
