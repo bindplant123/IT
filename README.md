@@ -1,57 +1,73 @@
-1. Practical No: 01
+Practical No: 01
 
-Configure Routers:
+a) Demonstrate the use of various features of Excel that are 
 
-a. OSPF MD5 authentication.
+required to do the data analysis.
 
-b. NTP. 
-
-c. to log messages to the syslog server.
+07/11/2025
 
 2. Practical No: 02
 
- Configure AAA Authentication 
+a) Demonstrate what-if analysis using goal seek, scenario 
 
-a. Configure a local user account on Router and configure 
+manager and data table for your own data.
 
-authenticate on the console and vty lines using local AAA 
-
-b. Verify local AAA authentication from the Router console 
-
-and the PC-A client
+27/11/2025
 
 3. Practical No: 03
 
- Configuring Extended ACLs 
+a) Perform the data classification using classification 
 
-a. Configure, Apply and Verify an Extended Numbered ACL
+algorithm.
 
-4. Practical No: 04
+04/12/2025
 
- Configure IP ACLs to Mitigate Attacks and IPV6 ACLs 
+4. Practical No: 04 
 
-a. Verify connectivity among devices before firewall 
+a) Perform the data clustering using clustering algorithm. 08/12/2025
 
-configuration. 
+5. Practical No: 05
 
-b. Use ACLs to ensure remote access to the routers is available 
+a) Perform the linear regression on the given datawarehouse 
 
-only from management station PC-C.
+data.
 
-c. Configure ACLs on to mitigate attacks. d. Configuring IPv6 
-
-ACLs
-
-5. Practical No: 6
-
- Configuring a Zone-Based Policy Firewall
+22/12/2025
 
 6. Practical No: 06
 
- Configure IOS Intrusion Prevention System (IPS) Using the 
+a) Perform the logistic regression on the given 
 
-] CLI 
+datawarehouse data.
 
-a. Enable IOS IPS.
+05/01/2026
 
-b. Modify an IPS signature.
+7. Practical No: 07
+
+a) Write a Python program to read data from a CSV file, 
+
+perform simple data analysis and generate basic insights.
+
+15/01/2026
+
+8. Practical No: 08
+
+a) Perform data visualization using Python on any sales 
+
+data.
+
+19/01/2026
+
+9. Practical No: 09
+
+a) Create the Data staging area for the selected database 
+
+using SQL.
+
+02/02/2026
+
+10. Practical No: 10
+
+a) Create the cube with suitable dimensions and facts tables 
+
+based on ROLAP,MOLAP and HOLAP Models.
