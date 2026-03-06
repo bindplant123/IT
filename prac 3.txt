@@ -1,0 +1,13 @@
+Router0
+
+enable
+configure terminal
+access-list 100 deny ip host 192.168.3.2 host 192.168.1.1
+access-list 100 permit ip any any
+interface fa0/0
+ip access-group 100 out
+exit
+end
+write memory
+
+ping 192.168.1.1

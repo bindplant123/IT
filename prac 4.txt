@@ -1,0 +1,45 @@
+Router0
+
+enable
+configure terminal
+username moin secret 123
+access-list 10 permit host 192.168.1.4
+access-list 10 deny any
+line vty 0 4
+login local
+transport input telnet
+access-class 10 in
+exit
+
+access-list 100 permit tcp host 192.168.1.4 any eq telnet
+access-list 100 permit ip 192.168.1.0 0.0.0.255 any
+access-list 100 deny icmp any any
+access-list 100 deny ip any any
+interface fa0/0
+ip access-group 100 in
+exit
+
+enable
+configure terminal
+ipv6 unicast-routing
+
+interface fa0/0
+ipv6 address 2001:DB8:1::1/64
+no shutdown
+exit
+
+ipv6 access-list IPV6-MGMT I
+permit ipv6 host 2001:DB8:1::4 any
+deny ipv6 any any
+
+interface fa0/0
+ipv6 traffic-filter IPV6-MGMT in
+exit
+
+
+
+telnet 192.168.1.1
+username: moin
+password: 123
+show ip interface fa0/0
+
