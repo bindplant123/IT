@@ -1,0 +1,18 @@
+Step 1: Create Staging Database
+CREATE DATABASE Sales_Staging; USE Sales_Staging;
+
+Step 2: Create Staging Table
+CREATE TABLE stg_sales ( sale_id INT,
+sale_date DATE, product_name VARCHAR(50), quantity INT,
+price DECIMAL(10,2),
+total_amount DECIMAL(10,2)
+);
+CREATE TABLE sales_source ( sale_id INT PRIMARY KEY, sale_date DATE, product_name VARCHAR(50), quantity INT,
+price DECIMAL(10, 2)
+);
+
+Step:3 insert value
+INSERT INTO stg_sales Values (sale_id, sale_date, product_name, quantity, price, total_amount)
+FROM sales_source; Step:4 table Created SELECT * FROM stg_sales
+WHERE sale_id IS NULL OR product_name IS NULL; DELETE FROM stg_sales
+WHERE quantity <= 0 OR price <= 0; SELECT * FROM stg_sales;
