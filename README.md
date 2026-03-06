@@ -42,7 +42,7 @@ c. Configure ACLs on to mitigate attacks. d. Configuring IPv6
 
 ACLs
 
-5. Practical No: 05
+5. Practical No: 6
 
  Configuring a Zone-Based Policy Firewall
 
