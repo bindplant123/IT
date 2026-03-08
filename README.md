@@ -93,3 +93,7 @@ c) Automating Map Creation with Print Composer Atlas.
 10. Practical No: 10
 
 a) Validating Map Data. 
+
+
+
+https://drive.google.com/drive/folders/1f56YkcYYBGkQGQbcYTShc3ca5-lxg7WW
