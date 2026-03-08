@@ -1,73 +1,95 @@
 Practical No: 01
 
-a) Demonstrate the use of various features of Excel that are 
+a) Adding vector layer.
 
-required to do the data analysis.
+b) Setting properties.
 
-07/11/2025
+c) Vector Layer Formatting.
+
+14/11/2025
 
 2. Practical No: 02
 
-a) Demonstrate what-if analysis using goal seek, scenario 
+a) Adding raster layers.
 
-manager and data table for your own data.
+b) Raster Styling and Analysis.
 
-27/11/2025
+c) Raster Mosaicking and Clipping.
+
+21/11/2025
 
 3. Practical No: 03
 
-a) Perform the data classification using classification 
+a) Making a Map.
 
-algorithm.
+b) Importing Spreadsheets or CSV files.
 
-04/12/2025
+c) Using Plugin.
+
+d) Searching and Downloading OpenStreetMap Data.
+
+28/11/2025
 
 4. Practical No: 04 
 
-a) Perform the data clustering using clustering algorithm. 08/12/2025
+a) Working with attributes.
+
+b) Terrain Data and Hill shade analysis.
+
+05/12/2025
+
+12/12/2025
 
 5. Practical No: 05
 
-a) Perform the linear regression on the given datawarehouse 
-
-data.
-
-22/12/2025
+a) Working with Projections and WMS Data. 02/01/2026
 
 6. Practical No: 06
 
-a) Perform the logistic regression on the given 
+a) Georeferencing Topo Sheets and Scanned Maps.
 
-datawarehouse data.
+b) Georeferencing Aerial Imagery.
 
-05/01/2026
+c) Digitizing Map Data.
+
+09/01/2026
+
+16/01/2026
 
 7. Practical No: 07
 
-a) Write a Python program to read data from a CSV file, 
+a) Table Join.
 
-perform simple data analysis and generate basic insights.
+b) Spatial Join.
 
-15/01/2026
+c) Points in polygon.
+
+d) Performing spatial queries.
+
+23/1/2026
 
 8. Practical No: 08
 
-a) Perform data visualization using Python on any sales 
+a) Nearest Neighbour Analysis.
 
-data.
+b) Sampling Raster Data using Points or Polygons.
 
-19/01/2026
+c) Interpolating Point Data.
+
+30/01/2026
 
 9. Practical No: 09
 
-a) Create the Data staging area for the selected database 
+a) Batch Processing using Processing Framework.
 
-using SQL.
+b) Automating Complex Workflows using Processing 
 
-02/02/2026
+Modeler.
+
+c) Automating Map Creation with Print Composer Atlas.
+
+06/02/2026
 
 10. Practical No: 10
 
-a) Create the cube with suitable dimensions and facts tables 
-
-based on ROLAP,MOLAP and HOLAP Models.
+a) Validating Map Data. 
